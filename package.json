@@ -1,0 +1,16 @@
+{
+  "name": "lab-kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vinicius Mazon <vnpmazon@gmail.com>",
+  "license": "MIT",
+  "type":"module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "dependencies": {
+    "avsc": "^5.7.3",
+    "node-rdkafka": "^2.11.0"
+  }
+}
